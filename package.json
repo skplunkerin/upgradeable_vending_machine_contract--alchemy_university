@@ -1,0 +1,23 @@
+{
+  "name": "upgradeable_vending_machine_contract--alchemy_university",
+  "version": "1.0.0",
+  "description": "This project runs through deploying smart contracts that use the transparent proxy pattern in order to be upgradeable. Deploying your contracts under a proxy can be useful in order to future-proof your smart contract functionality. You will be able to deploy a version 1 contract, add new functionality and then deploy a version 2 of that contract under the proxy, and so on...",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "deploy_local": "npx hardhat runs scripts/deploy.js",
+    "deploy_goerli": "npx hardhat runs scripts/deploy.js --network goerli",
+    "test": "npx hardhat test"
+  },
+  "keywords": [],
+  "author": "skplunkerin",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
