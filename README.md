@@ -7,13 +7,20 @@
 > **Original Source:**
 > Alchemy University - Ethereum Bootcamp - Week 7 - Upgrading Contracts
 
+## Goerli Contract Addresses:
+
+- **Proxy contract address:**
+  - [`0xE6800bcaf26F61Ad1525dF9941dF3899F8194586`](https://goerli.etherscan.io/address/0xe6800bcaf26f61ad1525df9941df3899f8194586)
+- **Implementation contract address:**
+  - **V1:** [`0x3856aFA22Ed9DF76Fffb7d49573F95DDB21B665E`](https://goerli.etherscan.io/address/0x3856afa22ed9df76fffb7d49573f95ddb21b665e)
+
 ## Sample Hardhat Project
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
 Try running some of the following tasks:
 
-```shell
+```sh
 npx hardhat help
 
 # npx hardhat test
@@ -28,6 +35,9 @@ npm run deploy_local
 
 # npx hardhat run scripts/deploy.js --network goerli
 npm run deploy_goerli
+
+# npx hardhat verify --network goerli {YOUR_IMPLEMENTATION_ADDRESS}
+npm run verify_goerli {YOUR_IMPLEMENTATION_ADDRESS}
 ```
 
 ---

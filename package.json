@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "npx hardhat node",
     "compile": "npx hardhat compile",
-    "deploy_local": "npx hardhat runs scripts/deploy.js",
-    "deploy_goerli": "npx hardhat runs scripts/deploy.js --network goerli",
+    "deploy_local": "npx hardhat run scripts/deployProxy.js --network localhost",
+    "deploy_goerli": "npx hardhat run scripts/deployProxy.js --network goerli",
+    "verify_goerli": "npx hardhat verify --network goerli",
     "test": "npx hardhat test"
   },
   "keywords": [],

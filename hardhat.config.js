@@ -7,6 +7,7 @@ require("@nomiclabs/hardhat-ethers");
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.17",
+  defaultNetwork: "localhost",
   networks: {
     goerli: {
       url: process.env.TESTNET_ALCHEMY_RPC_URL,
