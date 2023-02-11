@@ -8,6 +8,8 @@
     "compile": "npx hardhat compile",
     "deploy_local": "npx hardhat run scripts/deployProxy.js --network localhost",
     "deploy_goerli": "npx hardhat run scripts/deployProxy.js --network goerli",
+    "upgrade_local": "npx hardhat run scripts/upgradeProxy.js --network localhost",
+    "upgrade_goerli": "npx hardhat run scripts/upgradeProxy.js --network goerli",
     "verify_goerli": "npx hardhat verify --network goerli",
     "test": "npx hardhat test"
   },

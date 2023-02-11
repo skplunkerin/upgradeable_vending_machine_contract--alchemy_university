@@ -13,6 +13,7 @@
   - [`0xE6800bcaf26F61Ad1525dF9941dF3899F8194586`](https://goerli.etherscan.io/address/0xe6800bcaf26f61ad1525df9941df3899f8194586)
 - **Implementation contract address:**
   - **V1:** [`0x3856aFA22Ed9DF76Fffb7d49573F95DDB21B665E`](https://goerli.etherscan.io/address/0x3856afa22ed9df76fffb7d49573f95ddb21b665e)
+  - **V2:** [`0xdee9b98a78e21a26b445febdffaac227d549311b`](https://goerli.etherscan.io/address/0xdee9b98a78e21a26b445febdffaac227d549311b)
 
 ## Sample Hardhat Project
 
