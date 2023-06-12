@@ -17,7 +17,7 @@
   "author": "skplunkerin",
   "license": "MIT",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
     "hardhat": "^2.14.1"
   },
   "dependencies": {
